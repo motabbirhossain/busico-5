@@ -1089,9 +1089,10 @@
                     margin-bottom: 60px;
                 i{
                     color: $second-color;
-                    .text-color{
-                        color: rgb(214 214 214);
-                    }
+                   
+                }
+                .text-color{
+                    color: rgb(214 214 214) !important;
                 }
             }
         }

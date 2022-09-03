@@ -12169,8 +12169,8 @@ header .header-top-bar .top-social-icons a:hover {
 .testimonial-wrapper .testimonial-carousel-wrapper .client-content .icon i {
   color: #FF5E14;
 }
-.testimonial-wrapper .testimonial-carousel-wrapper .client-content .icon i .text-color {
-  color: rgb(214, 214, 214);
+.testimonial-wrapper .testimonial-carousel-wrapper .client-content .icon .text-color {
+  color: rgb(214, 214, 214) !important;
 }
 .testimonial-wrapper .testimonial-carousel-wrapper .map-img {
   z-index: -1;
