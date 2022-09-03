@@ -2325,7 +2325,7 @@ header ul, header li, footer ul, footer li {
   font-family: "Roboto", sans-serif !important;
   font-weight: 500 !important;
   font-size: 16px !important;
-  line-height: 19px !important;
+  line-height: 34px !important;
 }
 .btn-wepper a i {
   margin-right: 15px;
@@ -4200,6 +4200,16 @@ header .header-top-bar .top-social-icons a:hover {
   .agency-wrapper .brand-wepper .brand-head h5 {
     font-size: 18px;
   }
+}
+.agency-wrapper .brand-wepper .cloned img {
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.agency-wrapper .brand-wepper .cloned img:hover {
+  -webkit-filter: saturate(100);
+          filter: saturate(100);
 }
 .agency-wrapper .brand-wepper .hero-rapper {
   position: absolute;
@@ -11843,7 +11853,7 @@ header .header-top-bar .top-social-icons a:hover {
           box-shadow: none;
 }
 .questionanswer .faq-content .faq-ask-list .accordion .accordion-item {
-  margin: 10px 0px;
+  margin: 20px 0px;
   border: none;
 }
 .questionanswer .faq-content .faq-ask-list .accordion .accordion-item .accordion-header .accordion-button {
@@ -11906,8 +11916,8 @@ header .header-top-bar .top-social-icons a:hover {
   }
 }
 .price-wepper .active {
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 20px 15px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 20px 15px 0px;
+  -webkit-box-shadow: hsla(240deg, 5%, 41%, 0.2) 0px 13px 28px 0px;
+          box-shadow: hsla(240deg, 5%, 41%, 0.2) 0px 13px 28px 0px;
 }
 .price-wepper .active .bg-bth {
   background-color: #ff5e14;
@@ -12062,8 +12072,8 @@ header .header-top-bar .top-social-icons a:hover {
           animation: shake 0.5s linear 1;
 }
 .price-wepper .card:hover {
-  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 20px 15px 0px;
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 20px 15px 0px;
+  -webkit-box-shadow: hsla(240deg, 5%, 41%, 0.2) 0px 13px 28px 0px;
+          box-shadow: hsla(240deg, 5%, 41%, 0.2) 0px 13px 28px 0px;
 }
 .price-wepper .shaps {
   position: absolute;

@@ -965,6 +965,16 @@
                  }
             }
         }
+        .cloned{
+            img{
+                filter: saturate(0);
+                @include transition(0.2s);
+                &:hover{
+                    filter: saturate(100);
+                }
+            }
+           
+        }
         .hero-rapper{
             position: absolute;
             top: 0%;
