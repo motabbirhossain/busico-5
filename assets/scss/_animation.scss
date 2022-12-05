@@ -395,3 +395,22 @@
             transform: translateY(0px);
   }
 }
+
+@keyframes playVideo1 {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 94, 20, 0.05);;
+    box-shadow: 0 0 0 0 rgba(255, 94, 20, 0.05);;
+  }
+  40% {
+    -webkit-box-shadow: 0 0 0 30px rgba(255, 94, 20, 0.05);;
+    box-shadow: 0 0 0 30px rgba(255, 94, 20, 0.05);;
+  }
+  80% {
+    -webkit-box-shadow: 0 0 0 30px rgba(255, 94, 20, 0.05);;
+    box-shadow: 0 0 0 30px rgba(255, 94, 20, 0.05);;
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 94, 20, 0.05);;
+    box-shadow: 0 0 0 0 rgba(255, 94, 20, 0.05);;
+  }
+}

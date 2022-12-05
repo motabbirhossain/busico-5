@@ -30,7 +30,15 @@
     @media (max-width: 991px) {
         padding: 16px 30px 14px;
     }
-
+    &.theme_btn__2{
+        @include btn-trns;
+    }
+    &.theme_btn__3{
+        @include btn-trns;
+        border: 1px solid#020231;
+        color: #020231;
+        text-transform: capitalize;
+    }
     &.theme-2 {
         background: $theme-color-2;
         padding: 22px 40px;

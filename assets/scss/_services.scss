@@ -90,7 +90,64 @@
     border: 1px solid #EBEDF2;
     background-color: #fff;
     margin-top: 40px;
-
+    &.single-service-card_2{
+        border: 0px solid #EBEDF2;
+        padding: 0px 10px;
+        z-index: 1;
+        position: relative;
+        background-color: transparent !important;
+        .service-cover-img { 
+            height: 200px;
+            border-radius: 4px;
+        }
+        .content { 
+            padding: 30px 10px 50px 10px !important;
+            h4{
+                font-family: $text-font;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                a{
+                    position: relative;
+                    padding: 0px 0px;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+            a{
+                @include transition(0.4s);
+                padding: 10px 20px;
+                border-radius: 4px;
+                text-transform: capitalize;
+                margin-bottom: -15px;
+                position: absolute;
+                bottom: -1%;
+                visibility: hidden;
+                opacity: 0;
+            }
+        }
+        &::after{
+            position: absolute;
+            content: '';
+            clear: both;
+            display: block;
+            left: 0;
+            bottom: 0;
+            height: 75%;
+            width: 100%;
+            background-color: $white;
+            border-radius: 4px;
+            z-index: -1;
+            box-shadow: 0px 6px 20px rgba(1, 1, 28, 0.2);
+        }
+        &:hover{
+            a{
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
 	.service-cover-img { 
         height: 230px;
 	}

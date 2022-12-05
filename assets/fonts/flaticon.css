@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?9bca495e68d05b6357ef094902c807ae") format("truetype"),
-url("./flaticon.woff?9bca495e68d05b6357ef094902c807ae") format("woff"),
-url("./flaticon.woff2?9bca495e68d05b6357ef094902c807ae") format("woff2"),
-url("./flaticon.eot?9bca495e68d05b6357ef094902c807ae#iefix") format("embedded-opentype"),
-url("./flaticon.svg?9bca495e68d05b6357ef094902c807ae#flaticon") format("svg");
+    src: url("./flaticon.ttf?bfd971415c1b2d3927a33da777606046") format("truetype"),
+url("./flaticon.woff?bfd971415c1b2d3927a33da777606046") format("woff"),
+url("./flaticon.woff2?bfd971415c1b2d3927a33da777606046") format("woff2"),
+url("./flaticon.eot?bfd971415c1b2d3927a33da777606046#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bfd971415c1b2d3927a33da777606046#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
@@ -18,90 +18,75 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-search:before {
+.flaticon-phone-call:before {
     content: "\f101";
 }
-.flaticon-call:before {
+.flaticon-list:before {
     content: "\f102";
 }
-.flaticon-web-analysis:before {
+.flaticon-menu:before {
     content: "\f103";
 }
-.flaticon-growth:before {
+.flaticon-heart:before {
     content: "\f104";
 }
-.flaticon-trophy:before {
+.flaticon-up-and-down-arrows:before {
     content: "\f105";
 }
-.flaticon-coding:before {
+.flaticon-camera:before {
     content: "\f106";
 }
-.flaticon-play-button:before {
+.flaticon-hide:before {
     content: "\f107";
 }
-.flaticon-play-button-1:before {
+.flaticon-show:before {
     content: "\f108";
 }
-.flaticon-writing:before {
+.flaticon-twitter:before {
     content: "\f109";
 }
-.flaticon-curve:before {
+.flaticon-twitter-1:before {
     content: "\f10a";
 }
-.flaticon-bullhorn:before {
+.flaticon-linkedin:before {
     content: "\f10b";
 }
-.flaticon-brainstorming:before {
+.flaticon-facebook-circular-logo:before {
     content: "\f10c";
 }
-.flaticon-facebook:before {
+.flaticon-instagram:before {
     content: "\f10d";
 }
-.flaticon-twitter:before {
+.flaticon-envelope:before {
     content: "\f10e";
 }
-.flaticon-instagram:before {
+.flaticon-location:before {
     content: "\f10f";
 }
-.flaticon-linkedin-logo:before {
+.flaticon-beds:before {
     content: "\f110";
 }
-.flaticon-calendar:before {
+.flaticon-bathtub:before {
     content: "\f111";
 }
-.flaticon-chat:before {
+.flaticon-selection:before {
     content: "\f112";
 }
-.flaticon-folder:before {
+.flaticon-like:before {
     content: "\f113";
 }
-.flaticon-quote:before {
+.flaticon-user:before {
     content: "\f114";
 }
-.flaticon-inbox:before {
+.flaticon-home:before {
     content: "\f115";
 }
-.flaticon-email:before {
+.flaticon-pin:before {
     content: "\f116";
 }
-.flaticon-location:before {
+.flaticon-add:before {
     content: "\f117";
 }
-.flaticon-technology:before {
+.flaticon-person:before {
     content: "\f118";
-}
-.flaticon-rocket:before {
-    content: "\f119";
-}
-.flaticon-mountain:before {
-    content: "\f11a";
-}
-.flaticon-bar-chart:before {
-    content: "\f11b";
-}
-.flaticon-idea:before {
-    content: "\f11c";
-}
-.flaticon-user:before {
-    content: "\f11d";
 }

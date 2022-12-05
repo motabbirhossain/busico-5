@@ -206,6 +206,37 @@
 		background-color: #fff;
 		text-align: center;
 
+		&.our-experience-years_2{
+			.video-play-btn { 
+
+				.popup-video { 
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 50px;
+					height: 50px;
+					background: rgba(255, 94, 20, 0.15);
+					border-radius: 50%;
+					font-size: 14px;
+					line-height: 48px;
+					border: 5px solid rgba(255, 94, 20, 0.15);
+					text-align: center;
+					margin-right: 20px;
+					float: left;
+					color: $second-color;
+					animation-name: playVideo1;
+					@media (max-width: 500px) {
+						float: none;
+						display: block;
+						margin-bottom: 10px;
+					 }
+				}
+	
+				span { 
+					line-height: 1.5;
+				}
+			}
+		}
 		.year-outline { 
 			background-image: url('../img/outline.jpg');
 			background-repeat: no-repeat;
@@ -586,4 +617,34 @@
         margin: 0px auto;
     }
 
+}
+
+.about_content{
+	position: relative;
+	.icon{
+		margin-right: 35px;
+		margin-left: 20px;
+		img{
+			width: 40px;
+			height: 40px;
+			max-width: none !important;
+		}
+	}
+	.content{
+		margin-top: 30px;
+		h4{
+			font-family: $text-font;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 27px;
+			color:$second-color;
+			margin-bottom: 10px;
+		}
+	}
+	.element__img{
+		top: 20%;
+		left: 0%;
+		position: absolute;
+	}
 }

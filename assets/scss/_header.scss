@@ -241,7 +241,23 @@ header {
 
         .main-header-wrapper {
             position: relative;
-
+            &.main_wrapper{
+                &::before{
+                    position: absolute;
+                    width: 385px;
+                    height: 100%;
+                    content: "";
+                    right: 0;
+                    top: 0;
+                    display: none;
+                }
+            }
+            .main-header{
+                background: $white;
+                margin: 0 auto;
+                padding: 15px;
+                z-index: 999;
+            }
             &::before {
                 position: absolute;
                 width: 385px;

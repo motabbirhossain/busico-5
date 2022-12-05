@@ -150,6 +150,35 @@ Author: RRDevs
             }
         });
 
+        $(".brand-carousel-3").owlCarousel({ 
+            margin: 50,
+            loop: true,
+            autoplayTimeout: 5000,
+            autoplay:true,                                                                          
+            responsive : {
+                // breakpoint from 0 up
+                0 : {
+                    items: 2,                    
+                },
+                // breakpoint from 768 up
+                480 : {
+                    items: 3
+                },
+                // breakpoint from 768 up
+                768 : {
+                    items: 3
+                },
+                // breakpoint from 992 up
+                992 : {
+                    items: 4
+                },
+                
+                1191 : {
+                    items: 6
+                },
+            }
+        });
+
         $(".global-carousel").owlCarousel({ 
             margin: 80,
             loop: true,
@@ -267,6 +296,31 @@ Author: RRDevs
             }
         });
 
+        $(".project__slider").owlCarousel({ 
+            margin: 30,
+            loop: true,
+            autoplayTimeout: 6000,
+            autoplay:true,                                                                          
+            responsive : {
+                // breakpoint from 0 up
+                0 : {
+                    items: 1,                    
+                },
+                // breakpoint from 768 up
+                768 : {
+                    items: 2
+                },
+
+                1191 : {
+                    items: 3
+                },
+
+                1600 : {
+                    items: 4
+                },
+            }
+        });
+
         $(".portfolio-carousel-active").owlCarousel({ 
             loop: true,
             autoplayTimeout: 8000,
@@ -297,7 +351,6 @@ Author: RRDevs
             }
         });
 
-        //5
         $(".owl-carousel").owlCarousel({ 
             items: 1,
             loop: true,
@@ -305,7 +358,6 @@ Author: RRDevs
             autoplay:true,
             center: true,                                                                      
         });
-
 
         $(".testimonial-carousel-active").owlCarousel({        
             items: 1,     
@@ -326,6 +378,28 @@ Author: RRDevs
             navText: ['<i class="fal fa-long-arrow-left"></i>', '<i class="fal fa-long-arrow-right"></i>'],
         });
 
+        /* =============================================
+            # slick carousel init
+         ===============================================*/
+        
+         $('.our__testimonial__widget').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+             arrows: false,
+             asNavFor: '.our__testimonial__img'
+         });
+         $('.our__testimonial__img').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.our__testimonial__widget',
+            arrows: false,
+         });
 
         /* =============================================
             # Magnific popup init

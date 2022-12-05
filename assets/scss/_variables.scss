@@ -30,6 +30,7 @@ $div-color:#F3F2F9;
 $hover-color:#ccd0dec2;
 $heading-color: $theme-color;
 $title-color:#FFAE89;
+$title-color-2:#020231;
 
 
 $box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
@@ -370,5 +371,17 @@ $sticky-bg-2: $theme-color-2;
             background-color: $second-color;
             color: #fff !important;
         }
+    }
+}
+
+@mixin btn-trns {
+    border: 1px solid #FFFFFF;
+    padding: 14px 28px;
+    border-radius: 4px;
+    background-color: transparent ;
+    @include transition (0.4s);
+    &:hover{
+        border: 1px solid $second-color ;
+        background-color: $second-color !important;
     }
 }
